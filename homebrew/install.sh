@@ -15,4 +15,13 @@ fi
 # Install homebrew packages
 brew install grc coreutils spark
 
+brew install nvm
+# mkdir ~/.nvm
+# cp $(brew --prefix nvm)/nvm-exec ~/.nvm/
+# nvm install stable
+# nvm use stable
+# nvm alias default stable
+
+brew cleanup
+
 exit 0
